@@ -13,7 +13,7 @@ html,body
 button{
 
     display:block; /* change this from inline-block */
-    width:100%; /* setting the width */
+    width:100%; /* setting the width  */
     margin:0 auto; /* this will center  it */
     position:relative;
     font-style:normal;
