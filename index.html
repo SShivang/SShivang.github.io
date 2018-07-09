@@ -58,7 +58,79 @@
 </head>
 
 <style>
+div {
+    
+}
 
+.span_replace {
+    
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background: rgba(0,0,0,.5);
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+.span_replace:hover  {
+    opacity:1;
+}
+
+.divbutton {
+    height: 30px;
+    background: grey;
+    align-items: center;
+}
+
+button_class {
+    display: none;
+}
+
+.divbutton:hover button_class {
+    display: block;
+}
+
+.button_div{
+	border-style: solid; 
+	border-color: white !important; 
+	color: white; 
+	height:50px; 
+	width:140px ; 
+	text-align: center;
+	vertical-align:middle ;
+	display: flex;
+	justify-content: center; 
+	border-radius: 15px; 
+	align-items: center; 
+	font-weight:bold;
+	text-align:center;
+}
+
+.button_div:hover{
+	
+    background-color : white ;
+    color: black;
+}
+#inner {
+     width: 100%;
+     height: 100%;
+     margin: 0 auto ;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.container{
+    display: flex;
+}
+.fixed{
+    width: 200px;
+}
+.flex-item{
+    flex-grow: 1;
+}
 </style>
 
 <header id="home" class="page">
@@ -122,53 +194,92 @@
     </div>
   </div>
 <section id="portfolio" class="page">
-  <div class="container_12">
+
+<div class="container_12">
     <div class="grid_12">
       <h2 style="color:white" >My Portfolio</h2>
-      <div id="filters" class="button-group">
-        <a href="#" class="btn is-checked" data-filter="*">Show all</a>
-        <a href="#" class="btn" data-filter=".ill">Edu Guide</a>
-        <a href="#" class="btn" data-filter=".design">Integrative Biology Research</a>
-      </div>
-      <div class="el gallery" id="isotope">
-	 
-        <div class="element ill">
-          <div>
-            <a href="images/big1.png" class="gall-item"><img src="images/gal_img1.png"   alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element ill">
-          <div>
-            <a href="images/big2.png" class="gall-item"><img src="images/gal_img2.png"   alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element  ill">
-          <div>
-            <a href="images/big3.png" class="gall-item"><img src="images/gal_img3.png" alt=""><span></span></a>
-          </div>
-        </div>
-      
-        <div class="element ill">
-          <div>
-            <a href="images/big4.png" class="gall-item"><img src="images/gal_img4.png" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element design">
-	
-          <div>
-            <a href="images/big5.jpg" class="gall-item"><img src="images/gal_img5.jpg" alt=""><span></span></a>
-          </div>
-        </div>
-        <div class="element design">
-          <div>
-            <a href="images/big6.png" class="gall-item"><img src="images/gal_img6.png" alt=""><span></span></a>
-          </div>
-        </div>
-      </div>
-    </div>
-	
-    <div class="clear"></div>
-  </div>
+	  
+	  <p style="color:white; text-align:center"> Hover over the icons to find out more about the project. </p>
+	  </div>
+	</div>
+  
+ 		<div style=" width:100%; height:600px; text-align: center; margin: 0 auto ;
+     display: flex;
+     align-items: center;
+     justify-content: center;">
+			<div class="divbutton" style="background-image: url(https://sshivang.github.io/images/promotional.jpg);height: 400px; width: 350px;  float:left position: relative;display: inline-block; margin-right:100px " >
+				<div class="span_replace">
+					<div id="inner">
+						<div>
+							<h2 style="color: white; font-weight: bold">
+                            EduGuide
+                        </h2>
+							<p style="margin: 0 auto ; color:white">
+
+
+                            EduGuide is an application that provides a platform for students.
+
+                        </p>
+							<br>
+								<div style="text-align: center; display: flex;align-items: center; justify-content: center;">
+									<div class="button_div" style="border:2px solid white;"> View Project</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="divbutton" style="background-image: url(https://sshivang.github.io/images/heatisland.jpg);
+   height: 400px;
+   width: 350px;  position: relative;display: inline-block; margin-right:100px;
+ " >
+					<div class="span_replace">
+						<div id="inner">
+							<div>
+								<h2 style="color: white; font-weight: bold">
+                            EduGuide
+                        </h2>
+								<p style="margin: 0 auto ; color:white">
+
+
+                            EduGuide is an application that provides a platform for students.
+
+                        </p>
+								<br>
+									<div style="text-align: center; display: flex;align-items: center; justify-content: center;">
+										<div class="button_div" style="border:2px solid white;"> View Project</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="divbutton" style="background-image: url(https://sshivang.github.io/images/big2.png);
+   height: 400px;
+   width: 350px;  position: relative;display: inline-block; 
+ " >
+						<div class="span_replace">
+							<div id="inner">
+								<div>
+									<h2 style="color: white; font-weight: bold">
+                            EduGuide
+                        </h2>
+									<p style="margin: 0 auto ; color:white">
+
+
+                            EduGuide is an application that provides a platform for students.
+
+                        </p>
+									<br>
+										<div style="text-align: center; display: flex;align-items: center; justify-content: center;">
+											<div class="button_div" style="border:2px solid white;"> View Project</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+ 
+
+ 
 </section>
 <section id="skills" class="page">
  
@@ -186,6 +297,7 @@
               <div class="text-2 color1">R Analysis Tool</div>
               Ontological data to make pairwise comparisons between stages using a Jaccard coefficient algorithm as well as a Euclidean distance metric.
             </div>
+			<img src="https://avatars2.githubusercontent.com/u/16310935?s=460&amp;v=4" alt="Smiley face" style="float:right ; padding-top: 30px" >
           </div>
         </div>
         <div class="grid_8 omega">
@@ -317,7 +429,7 @@
 </section>
 <!--==============================
               footer
-==================================-->
+=================================-->
 </div>
 
 </body>
