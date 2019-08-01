@@ -8,31 +8,31 @@
 body {
     padding-bottom: 20px;
     color: #FAFAFA;
-    background-color: #673ab7;
+    background-color: #4169E1;
 }
 p, h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF;
 }
 .footer {
   height: 100px;
-  background-color: #512da8;
+  background-color: #88AAFF;
 }
 a.btn {
     text-decoration: none;
 }
 .btn {
-    background-color: #7c4dff;
-    border-color: #7c4dff;
+    background-color: #7788EE;
+    border-color: #7788EE;
     margin: 12px;
     border-radius: 0px;
 }
 .btn:hover {
-    background-color: #7c4dff;
+    background-color: #7788EE;
     border-color: #673ab7;
     border-radius: 0px;
 }
 .btn:focus {
-    background-color: #7c4dff;
+    background-color: #7788EE;
     border-color: #673ab7;
     border-radius: 0px;
 }
