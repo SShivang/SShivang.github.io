@@ -8,7 +8,7 @@
 body {
     padding-bottom: 20px;
     color: #FAFAFA;
-    background-color: #4169E1;
+    background-color: #88AAFF;
 }
 p, h1, h2, h3, h4, h5, h6 {
     color: #FFFFFF;
@@ -72,7 +72,7 @@ a.btn {
     width: auto;
 }
 .jumbotron {
-    background-color: #512da8;
+    background-color: #4169E1;
 }
 .divider {
   padding: 12px;
